@@ -1,0 +1,177 @@
+{
+ "autoname": "SRE.#####",
+ "creation": "2020-07-09 22:28:40.854576",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_name",
+  "student_email",
+  "age",
+  "image",
+  "nationality",
+  "data_6",
+  "column_break_5",
+  "certificate",
+  "application_barcode",
+  "button_test",
+  "reviewed",
+  "color",
+  "info_section",
+  "fee",
+  "fee_discount",
+  "posting_date",
+  "registe_daate_time",
+  "note",
+  "pass",
+  "percentage",
+  "gender",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "student_email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Email ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Student Register",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Link",
+   "label": "Nationality",
+   "options": "Nationality"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "certificate",
+   "fieldtype": "Attach",
+   "label": "Certificate"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "application_barcode",
+   "fieldtype": "Barcode",
+   "label": "Application Barcode"
+  },
+  {
+   "fieldname": "button_test",
+   "fieldtype": "Button",
+   "label": "Button test"
+  },
+  {
+   "default": "0",
+   "fieldname": "reviewed",
+   "fieldtype": "Check",
+   "label": "Reviewed"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "Color"
+  },
+  {
+   "fieldname": "info_section",
+   "fieldtype": "Section Break",
+   "label": "Info"
+  },
+  {
+   "fieldname": "fee",
+   "fieldtype": "Currency",
+   "label": "Fee"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "registe_daate_time",
+   "fieldtype": "Datetime",
+   "label": "Registe Daate Time"
+  },
+  {
+   "fieldname": "fee_discount",
+   "fieldtype": "Float",
+   "label": "Fee Discount"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Long Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "pass",
+   "fieldtype": "Password",
+   "label": "Pass"
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Percent",
+   "label": "Percentage"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "data_6",
+   "fieldtype": "Data"
+  }
+ ],
+ "image_field": "image",
+ "is_submittable": 1,
+ "modified": "2020-07-13 17:37:54.392256",
+ "modified_by": "Administrator",
+ "module": "Service Agent",
+ "name": "Student Register",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1
+}

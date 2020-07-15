@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include service_agent *.css
+recursive-include service_agent *.csv
+recursive-include service_agent *.html
+recursive-include service_agent *.ico
+recursive-include service_agent *.js
+recursive-include service_agent *.json
+recursive-include service_agent *.md
+recursive-include service_agent *.png
+recursive-include service_agent *.py
+recursive-include service_agent *.svg
+recursive-include service_agent *.txt
+recursive-exclude service_agent *.pyc
